@@ -8,7 +8,7 @@ console.log('Q2: Sylvia makes', yearWage, 'dollars per year.');
 
 const percentage = (17 / 30) * 100;
 
-console.log('Q3: %d%', percentage.toFixed(2));
+console.log('Q3: %d %', percentage.toFixed(2));
 
 const perimeterSquare = 4.75 * 4;
 
@@ -26,7 +26,7 @@ const areaTriangle = 1 / 4 * Math.sqrt((5 + 6 + 7)*(- 5 + 6 + 7)*(5 - 6 + 7)*(5 
 
 console.log('Q7: the area of the triangle is %d cm²', areaTriangle.toFixed(2));
 
-const volumeCube = 9 ^ 3;
+const volumeCube = Math.pow(9, 3);
 
 console.log('Q8: the volume of the cube is %s cm³', volumeCube);
 
