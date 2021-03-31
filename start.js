@@ -44,5 +44,4 @@ console.log('Q11: Score in the test: %s', x);
 
 const y = 80 * 9 - 78 * 8;
 
-console.log('Q12: James needs a minimum of %s%', y);
-
+console.log('Q12: James needs a minimum of %s %', y);
